@@ -1,0 +1,15 @@
+.service-parts h4 {
+    text-decoration: underline;
+}
+
+.top-bar img {
+    height:35%;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+}
+
+#social-links a {
+    text-decoration: none;
+    color: rgb(231, 99, 10);
+}
