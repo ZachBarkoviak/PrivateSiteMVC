@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewData["Title"] = "Email Confirmation";
+}
+
+
+@model PrivateSite.Models.ContactViewModel
+
+
+
+            <div class="row">
+
+                <div class="col-lg-12">
+                    @*
+                        When referring to a SPECIFIC OBJECT passed to this View that fits the model
+                        (like the cvm object we passed to this View), we use a capital M -- "Model"
+                    *@
+                    <div class="info-box">
+                        <i class="bx bx-check-circle"></i>
+                        <h3>Message Sent!</h3>
+                        <p>
+                            Thank you for contacting me! I will do my best to respond to your
+                            message using the provided email address, @(Model.Email), as soon as possible!
+                        </p>
+
+                        <br />
+
+                        <div class="offset-3 col-md-6 text-center">
+                            <p>
+                                You sent the following message on 
+                                @DateTime.Now.Date.ToShortDateString() at 
+                                @DateTime.Now.Date.ToShortTimeString() :
+                            </p>
+                        </div>
+
+                        <br />
+
+                        <div class="offset-3 col-md-6">
+                            <p>
+                                <em>@Model.Message</em>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
