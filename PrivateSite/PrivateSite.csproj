@@ -8,6 +8,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="wwwroot\images\author\**" />
+    <Compile Remove="wwwroot\images\blog\**" />
+    <Content Remove="wwwroot\images\author\**" />
+    <Content Remove="wwwroot\images\blog\**" />
+    <EmbeddedResource Remove="wwwroot\images\author\**" />
+    <EmbeddedResource Remove="wwwroot\images\blog\**" />
+    <None Remove="wwwroot\images\author\**" />
+    <None Remove="wwwroot\images\blog\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Remove="wwwroot\404.html" />
     <Content Remove="wwwroot\assets\resume.docx" />
     <Content Remove="wwwroot\blog-fullwidth.html" />
@@ -23,15 +34,9 @@
     <Content Remove="wwwroot\images\about\about.jpg" />
     <Content Remove="wwwroot\images\about\about.png" />
     <Content Remove="wwwroot\images\about\ProfilePic.jpg" />
-    <Content Remove="wwwroot\images\author\about.jpg" />
-    <Content Remove="wwwroot\images\author\author-bg.jpg" />
-    <Content Remove="wwwroot\images\author\author.jpg" />
     <Content Remove="wwwroot\images\avater-1.jpg" />
     <Content Remove="wwwroot\images\avater-2.jpg" />
     <Content Remove="wwwroot\images\avater.jpg" />
-    <Content Remove="wwwroot\images\blog\post-1.jpg" />
-    <Content Remove="wwwroot\images\blog\post-2.jpg" />
-    <Content Remove="wwwroot\images\blog\post-3.jpg" />
     <Content Remove="wwwroot\images\clients\customer.gif" />
     <Content Remove="wwwroot\images\clients\logo-1.jpg" />
     <Content Remove="wwwroot\images\clients\logo-2.jpg" />
@@ -141,15 +146,6 @@
     <None Include="wwwroot\images\about\about.jpg" />
     <None Include="wwwroot\images\about\about.png" />
     <None Include="wwwroot\images\about\ProfilePic.jpg" />
-    <None Include="wwwroot\images\author\about.jpg" />
-    <None Include="wwwroot\images\author\author-bg.jpg" />
-    <None Include="wwwroot\images\author\author.jpg" />
-    <None Include="wwwroot\images\avater-1.jpg" />
-    <None Include="wwwroot\images\avater-2.jpg" />
-    <None Include="wwwroot\images\avater.jpg" />
-    <None Include="wwwroot\images\blog\post-1.jpg" />
-    <None Include="wwwroot\images\blog\post-2.jpg" />
-    <None Include="wwwroot\images\blog\post-3.jpg" />
     <None Include="wwwroot\images\clients\customer.gif" />
     <None Include="wwwroot\images\clients\logo-1.jpg" />
     <None Include="wwwroot\images\clients\logo-2.jpg" />
@@ -172,19 +168,10 @@
     <None Include="wwwroot\images\portfolio\botw.png" />
     <None Include="wwwroot\images\portfolio\conny.png" />
     <None Include="wwwroot\images\portfolio\dungeon.png" />
-    <None Include="wwwroot\images\portfolio\item-1.jpg" />
-    <None Include="wwwroot\images\portfolio\item-2.jpg" />
-    <None Include="wwwroot\images\portfolio\item-3.jpg" />
-    <None Include="wwwroot\images\portfolio\item-4.jpg" />
-    <None Include="wwwroot\images\portfolio\item-5.jpg" />
-    <None Include="wwwroot\images\portfolio\item-6.jpg" />
     <None Include="wwwroot\images\portfolio\mole.png" />
     <None Include="wwwroot\images\portfolio\moon.jpg" />
-    <None Include="wwwroot\images\portfolio\post-1.jpg" />
     <None Include="wwwroot\images\Screenshot 2022-08-21 092200.png" />
-    <None Include="wwwroot\images\slider.jpg" />
     <None Include="wwwroot\images\slider.png" />
-    <None Include="wwwroot\images\team.jpg" />
     <None Include="wwwroot\images\team.png" />
     <None Include="wwwroot\images\team\brittanyDodd.jpg" />
     <None Include="wwwroot\images\team\caseyBrown.jpg" />
